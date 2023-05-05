@@ -1,0 +1,182 @@
+baseurl = "https://username.github.io"
+DefaultContentLanguage = "en"
+title = "Jeff Hemmen Sàrl-S"
+theme = "beautifulhugo"
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+#pygmentsUseClassic = true
+#pygmentOptions = "linenos=inline"
+#disqusShortname = "XXX"
+#googleAnalytics = "XXX"
+
+[Params]
+  homeTitle = "Jeff Hemmen Sàrl-S" # Set a different text for the header on the home page
+  mainSections = ["post","posts"]
+  logo = "images/logo.png" # Expecting square dimensions
+  favicon = "img/favicon.ico"
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = true
+  comments = true
+  readingTime = true
+  wordCount = true
+  useHLJS = true
+  # socialShare = true
+  delayDisqus = true
+  showRelatedPosts = true
+
+
+#  hideAuthor = true
+#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+
+
+#[[Params.bigimg]]
+#  src = "img/sphere.jpg"
+#  desc = "Sphere"
+#  # position: see values of CSS background-position.
+#  position = "center top"
+#[[Params.bigimg]]
+#  src = "img/hexagon.jpg"
+#  desc = "Hexagon"
+
+[Author]
+  # Set only your "username" for default hosts and full URLs otherwise (e.g., "https://MyGitLab.org/username")
+  name = "Jeff Hemmen"
+  website = "yourwebsite.com"
+  email = "youremail@domain.com"  
+  # facebook = "username"
+  github = "username"
+  gitlab = "username"
+  # bitbucket = "username"
+  twitter = "username"
+  reddit = "username"
+  linkedin = "username"
+  # xing = "username"
+  stackoverflow = "users/XXXXXXX/username"
+  # snapchat = "username"
+  # instagram = "username"
+  # youtube = "user/username" # or channel/channelname
+  # soundcloud = "username"
+  # spotify = "username"
+  # bandcamp = "username"
+  # itchio = "username"
+  # vk = "username"
+  # paypal = "username"
+  # telegram = "username"
+  # 500px = "username"
+  # codepen = "username"
+  # mastodon = "url"
+  # kaggle = "username"
+  # weibo = "username"
+  # slack = "username"
+  # discord = "invite code (https://discord.gg/XXXXXXX)"
+  # strava = "userid"
+
+[languages]
+    [languages.en]
+        [languages.en.menu]    
+    [languages.fr]
+        [languages.fr.menu]
+    [languages.de]
+        [languages.de.menu]
+
+
+[[languages.en.menu.main]]
+    id = "blog"
+    name = "Blog"
+    url = "blog/"
+    weight = 1
+
+[[languages.de.menu.main]]
+    id = "blog"
+    name = "Blog"
+    url = "blog/"
+    weight = 1
+
+[[languages.fr.menu.main]]
+    id = "blog"
+    name = "le blogue"
+    url = "blog/"
+    weight = 1
+
+
+[[languages.en.menu.main]]
+    name = "What we do"
+    url = "services/"
+    weight = 2
+
+[[languages.fr.menu.main]]
+    name = "Services offerts"
+    url = "services/"
+    weight = 2
+
+[[languages.de.menu.main]]
+    name = "Angebotene Dienstleistungen"
+    url = "services/"
+    weight = 2
+
+
+[[languages.en.menu.main]]
+    name = "About Jeff"
+    url = "about/"
+    weight = 3
+
+[[languages.fr.menu.main]]
+    name = "à propos de Jeff"
+    url = "about/"
+    weight = 3
+
+[[languages.de.menu.main]]
+    name = "Über mich"
+    url = "about/"
+    weight = 3
+
+
+[[languages.en.menu.main]]
+    name = "Clients"
+    url = "clients/"
+    weight = 4
+
+[[languages.fr.menu.main]]
+    name = "Clients"
+    url = "clients/"
+    weight = 4
+
+[[languages.de.menu.main]]
+    name = "Kunden"
+    url = "clients/"
+    weight = 4
+
+
+[[languages.en.menu.main]]
+    name = "Publications"
+    url = "publications/"
+    weight = 5
+
+[[languages.fr.menu.main]]
+    name = "Publications"
+    url = "publications/"
+    weight = 5
+
+[[languages.de.menu.main]]
+    name = "Veröffentlichungen"
+    url = "publications/"
+    weight = 5
+
+
+[[languages.en.menu.main]]
+    name = "Contact"
+    url = "contact/"
+    weight = 10
+
+[[languages.fr.menu.main]]
+    name = "Contact"
+    url = "contact/"
+    weight = 10
+
+[[languages.de.menu.main]]
+    name = "Kontakt"
+    url = "contact/"
+    weight = 10
