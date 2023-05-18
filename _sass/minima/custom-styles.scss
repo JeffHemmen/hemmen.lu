@@ -10,9 +10,7 @@
         margin-bottom: 5px;
         display: inline; /* Make the paragraphs inline */
         padding: 0 10px; /* Add padding to space out the elements */
-        position: relative;
-
-        
+        position: relative;        
     }
 
     p:not(:last-child):after {
@@ -31,4 +29,10 @@
         max-height: 100%;
         max-width: 100%;
     }
+}
+
+.site-header {
+    background-color: $background-color;
+    position: sticky;
+    top: 0;
 }
