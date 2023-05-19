@@ -1,0 +1,13 @@
+---
+layout: page
+---
+
+<!-- for creds in credly list, show all on a grid -->
+<!-- also, link to credly directly -->
+{{content}}
+
+{%- for cert in page.credly-certs -%}
+
+{%- include credly-cert.html cert=cert -%}
+
+{%- endfor -%}

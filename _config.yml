@@ -38,6 +38,7 @@ plugins:
   - jekyll-feed
 
 header_pages:
+  - testimonials.md
   - certifications.md
   - publications.md
   - about.md
