@@ -1,2 +1,9 @@
-<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id={{include.cert.id}} data-share-badge-host="https://credly.com"></div>
+{% if cert.expired %}
+{% assign container-height = "265" %}
+{% else %}
+{% assign container-height = "240" %}
+{% endif %}
+<div class="credly-cert-container">
+<div data-iframe-width="150" data-iframe-height={{container-height}} data-share-badge-id={{include.cert.id}} data-share-badge-host="https://credly.com"></div>
 <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+</div>

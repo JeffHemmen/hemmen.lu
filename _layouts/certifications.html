@@ -6,8 +6,12 @@ layout: page
 <!-- also, link to credly directly -->
 {{content}}
 
+<div class="credly-grid-container">
 {%- for cert in page.credly-certs -%}
 
+<div class="grid-item">
 {%- include credly-cert.html cert=cert -%}
+</div>
 
 {%- endfor -%}
+</div>
