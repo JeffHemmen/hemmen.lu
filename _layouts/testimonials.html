@@ -1,0 +1,18 @@
+---
+layout: base
+title: Testimonials
+---
+
+<h1 class="page-heading">Testimonials</h1>
+<!-- list of testimonials -->
+
+<h1 class="page-heading">Past Clients</h1>
+<!-- grid of client logos -->
+
+<div class="clients-grid-container">
+{%- for client in page.past_clients -%}
+
+{%- include past-client.html client=client -%}
+
+{%- endfor -%}
+</div>
