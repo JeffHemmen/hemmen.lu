@@ -110,11 +110,18 @@
 }
 
 .site-nav {
+
     .page-link-active {
-    @extend .page-link;    
-        padding-bottom: 18px;
-        border-bottom-style: solid;
-        border-bottom-width: 2px;
-        border-bottom-color: $brand-color-light;    
+    @extend .page-link;
     }
+    
+    @media screen and (min-width: $on-medium) {
+
+        .page-link-active {
+            padding-bottom: 18px;
+            border-bottom-style: solid;
+            border-bottom-width: 2px;
+            border-bottom-color: $brand-color-light;
+        }
+      }
 }
