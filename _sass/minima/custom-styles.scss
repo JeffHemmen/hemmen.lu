@@ -108,3 +108,13 @@
     border-radius: 6px;
     border-color: $brand-color-dark;
 }
+
+.site-nav {
+    .page-link-active {
+    @extend .page-link;    
+        padding-bottom: 18px;
+        border-bottom-style: solid;
+        border-bottom-width: 2px;
+        border-bottom-color: $brand-color-light;    
+    }
+}
