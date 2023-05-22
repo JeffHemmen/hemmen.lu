@@ -113,15 +113,21 @@
 
     .page-link-active {
     @extend .page-link;
+        background-color: lighten($background-color, 10%);
+        border-width: 2px;
+        border-color: $brand-color-light;
+        border-left-style: inset;
     }
     
     @media screen and (min-width: $on-medium) {
 
-        .page-link-active {
-            padding-bottom: 18px;
-            border-bottom-style: solid;
-            border-bottom-width: 2px;
-            border-bottom-color: $brand-color-light;
+        .page-link {
+            padding: 16px 4px 18px;
         }
-      }
+
+        .page-link-active {
+            border-left-style: none;
+            border-bottom-style: solid;
+        }
+    }
 }
