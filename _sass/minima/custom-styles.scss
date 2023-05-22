@@ -8,7 +8,7 @@
     p {
         font-size: 14px;
         margin-bottom: 5px;
-        display: inline; /* Make the paragraphs inline */
+        display: inline-block; /* Make the paragraphs inline */
         padding: 0 10px; /* Add padding to space out the elements */
         position: relative;        
     }
@@ -95,7 +95,7 @@
         border-width: 2px;
         border-radius: 6px;
         border-color: $brand-color-dark;
-        border-style: inset;
+        border-style: solid;
         color: $background-color;        
         text-align: center;
     }
@@ -111,23 +111,59 @@
 
 .site-nav {
 
+    .page-link {
+        border-color: transparent;
+        border-width: 2px;
+    }
+
     .page-link-active {
     @extend .page-link;
         background-color: lighten($background-color, 10%);
         border-width: 2px;
         border-color: $brand-color-light;
-        border-left-style: inset;
+        border-left-style: solid;
     }
     
     @media screen and (min-width: $on-medium) {
 
         .page-link {
             padding: 16px 4px 18px;
-        }
-
-        .page-link-active {
+            border-width: 2px;
             border-left-style: none;
             border-bottom-style: solid;
         }
+
+        .page-link:hover {
+            background-color: lighten($background-color, 20%);
+            text-decoration: none;
+        }
     }
+}
+
+
+
+
+.site-title {
+    padding-right: 4px;
+    border-bottom-style: solid;
+    border-color: transparent;
+    border-width: 2px;
+}
+
+.site-title-current {
+    @extend .site-title;
+    background-color: lighten($background-color, 10%);
+    border-bottom-style: solid;
+    border-color: $brand-color-light;
+    border-width: 2px;
+}
+
+
+.site-title:hover {
+    background-color: lighten($background-color, 20%);
+    text-decoration: none;
+}
+
+.site-title:visited {
+    color: $site-title-color;
 }
