@@ -50,14 +50,14 @@
 
 .clients-grid-container {
     @extend .grid-container;
-    grid-template-columns: repeat(auto-fill, 160px);
+    grid-template-columns: repeat(auto-fill, auto);
     gap: 10px;
 }
 
 .past-client-container {
     @extend .grid-item !optional;
     display: grid;
-    grid-auto-rows: auto min-content;
+    grid-auto-rows: 160px min-content;
     gap: 10px;    
     padding: 10px;
     padding-bottom: 4px;
@@ -152,7 +152,7 @@
 
 .site-title-current {
     @extend .site-title;
-    background-color: lighten($background-color, 10%);
+    // background-color: lighten($background-color, 10%);
     border-bottom-style: solid;
     border-color: $brand-color-light;
     border-width: 2px;
