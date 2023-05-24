@@ -48,6 +48,25 @@
     gap: 10px;
 }
 
+.logo-cloud {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    align-items: center;
+    justify-items: center;
+    gap: 4px;
+
+    .logo-cloud-item {
+        --weight: 1;
+        --aspect: 1;
+        grid-area: calc(var(--weight) * 2) / calc(var(--weight) * 2) / span var(--weight) / span calc(var(--weight) * var(--aspect)); //random(10) / random(1) calc(1 + var(--weight)) / calc(1 + var(--weight));
+
+        img {
+            object-fit: contain;
+        }
+    }
+}
+
 .clients-grid-container {
     // @extend .grid-container;
     display: flex;
