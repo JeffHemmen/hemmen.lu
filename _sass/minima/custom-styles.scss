@@ -49,18 +49,26 @@
 }
 
 .clients-grid-container {
-    @extend .grid-container;
-    grid-template-columns: repeat(auto-fill, auto);
-    gap: 10px;
+    // @extend .grid-container;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    // grid-template-rows: repeat(auto-fill, 200px);
+    // gap: 10px;
 }
 
 .past-client-container {
-    @extend .grid-item !optional;
-    display: grid;
-    grid-auto-rows: 160px min-content;
+    // @extend .grid-item !optional;
+    display: inline-grid;
+    height: auto;
+    width: fit-content;
+    min-width: fit-content;
+    grid-auto-rows: max-content min-content;
     gap: 10px;    
     padding: 10px;
     padding-bottom: 4px;
+    margin: 4px;
     justify-items: center;
     align-items: center;
     
@@ -74,7 +82,7 @@
         align-content: center;
         justify-content: center;        
         width: 100%;
-        height: 100%;
+        height: 160px;
         background-color: $brand-color;
         padding: 5px;
         border-style: solid;
@@ -83,7 +91,7 @@
         border-color: $brand-color-dark;
 
         img {
-            object-fit: contain;
+            object-fit: cover;
         }
 
     }
