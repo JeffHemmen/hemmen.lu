@@ -52,10 +52,11 @@
     display: grid;
     // grid-template-columns: repeat(10, 1fr);
     // grid-template-rows: repeat(10, 1fr);
-    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    grid-template-columns: repeat(auto-fill, 80px);
     grid-auto-flow: dense;
     align-items: center;
     justify-items: center;
+    grid-auto-rows: 80px;
     gap: 4px;
 
     .logo-cloud-item {
