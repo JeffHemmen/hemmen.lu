@@ -10,9 +10,15 @@ title: Testimonials
 <!-- grid of client logos -->
 
 <div class="logo-cloud">
-{%- for client in page.past_clients -%}
+{% assign random_clients = page.past_clients | sample: page.past_clients.size %}
 
-{%- include past-client.html client=client -%}
+{% comment %}
+{% assign random_clients = page.past_clients | sort: "weight" | reverse %}
+{% endcomment %}
 
-{%- endfor -%}
+{% for client in random_clients %}
+
+{% include past-client.html client=client %}
+
+{% endfor %}
 </div>
