@@ -5,7 +5,7 @@ permalink: /testimonials/
 past_clients:
   - { name: "Aperture Labs",
       logo: "/assets/images/client_icons/aperture.png",
-      weight: 2,
+      weight: 1,
       aspect: {x: 1, y: 1}
     }
   - { name: "Black Mesa",
@@ -15,7 +15,7 @@ past_clients:
     }
   - { name: "AWS",
       logo: "/assets/images/client_icons/aws.svg",
-      weight: 2,
+      weight: 1,
       aspect: {x: 1, y: 1}
     }
   - { name: "HSBC",
@@ -24,9 +24,9 @@ past_clients:
       aspect: {x: 2, y: 1}
     }
   - { name: "Clearscore",
-      logo: "/assets/images/client_icons/clearscore.svg",
+      logo: "/assets/images/client_icons/clearscore.png",
       weight: 1,
-      aspect: {x: 2, y: 1}
+      aspect: {x: 1, y: 1}
     }
   - { name: "BNP Paribas",
       logo: "/assets/images/client_icons/BNP_Paribas_logo.svg",

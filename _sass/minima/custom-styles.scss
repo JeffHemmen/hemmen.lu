@@ -57,7 +57,15 @@
     align-items: center;
     justify-items: center;
     grid-auto-rows: 80px;
+    padding: 4px;
     gap: 4px;
+    background-color: $brand-color;
+
+    border-width: 2px;
+    border-radius: 6px;
+    border-color: $brand-color-dark;
+    border-style: solid;
+
 
     .logo-cloud-item {
         --weight: 1;
@@ -70,28 +78,11 @@
         justify-content: center;
         grid-column: span calc(var(--weight) * var(--aspect_x));
         grid-row: span calc(var(--weight) * var(--aspect_y));
-        // grid-area: calc(var(--weight) * 2) / calc(var(--weight) * 2) / span var(--weight) / span calc(var(--weight) * var(--aspect)); //random(10) / random(1) calc(1 + var(--weight)) / calc(1 + var(--weight));
 
         img {
             object-fit: contain;            
         }
     }
-
-    // .logo-cloud-item:nth-child(4n) {
-    //     grid-area: 5 / 5 / 5 / 5;
-    // }
-
-    // .logo-cloud-item:nth-child(4n + 1) {
-    //     grid-area: 6 / 5 / 6 / 5;
-    // }
-
-    // .logo-cloud-item:nth-child(4n + 2) {
-    //     grid-area: 6 / 4 / 6 / 4;
-    // }
-
-    // .logo-cloud-item:nth-child(4n + 3) {
-    //     grid-area: 5 / 4 / 5 / 4;
-    // }
 }
 
 .clients-grid-container {
