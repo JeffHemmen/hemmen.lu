@@ -19,16 +19,7 @@
     }
 }
 
-.company-logo {
-    height: 54px;
-    float: left;
 
-    img {        
-        vertical-align: top;
-        max-height: 100%;
-        max-width: 100%;
-    }
-}
 
 .site-header {
     background-color: $background-color;
@@ -100,14 +91,23 @@
 .site-nav {
 
     .page-link {
+
         border-color: transparent;
         border-width: 2px;
+        background-color: transparent;
+        transition-property: background-color;
+        transition-duration: 300ms;        
+    }
+
+    .page-link:hover {   
+        background-color: lighten($background-color, 20%);
+        text-decoration: none;
     }
 
     .page-link-active {
     @extend .page-link;
         background-color: lighten($background-color, 10%);
-        border-width: 2px;
+        // border-width: 2px;
         border-color: $brand-color-light;
         border-left-style: solid;
     }
@@ -116,14 +116,9 @@
 
         .page-link {
             padding: 16px 4px 18px;
-            border-width: 2px;
+            // border-width: 2px;
             border-left-style: none;
             border-bottom-style: solid;
-        }
-
-        .page-link:hover {
-            background-color: lighten($background-color, 20%);
-            text-decoration: none;
         }
     }
 }
@@ -136,16 +131,29 @@
     border-bottom-style: solid;
     border-color: transparent;
     border-width: 2px;
+
+    background-color: transparent;
+    transition-property: background-color;
+    transition-duration: 300ms;    
+
+    .company-logo {
+        height: 54px;
+        float: left;
+    
+        img {        
+            vertical-align: top;
+            max-height: 100%;
+            max-width: 100%;
+        }
+    }
 }
 
 .site-title-current {
     @extend .site-title;
-    // background-color: lighten($background-color, 10%);
     border-bottom-style: solid;
     border-color: $brand-color-light;
     border-width: 2px;
 }
-
 
 .site-title:hover {
     background-color: lighten($background-color, 20%);
