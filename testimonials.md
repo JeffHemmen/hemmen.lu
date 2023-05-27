@@ -31,6 +31,6 @@ past_clients:
   - { name: "BNP Paribas",
       logo: "/assets/images/client_icons/BNP_Paribas_logo.svg",
       weight: 1,
-      aspect: {x: 4, y: 1}
+      aspect: {x: 2, y: 1}
     }
 ---
