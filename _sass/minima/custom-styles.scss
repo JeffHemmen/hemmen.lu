@@ -1,19 +1,18 @@
 .footer-compinfo {
-    // position: fixed;
     bottom: 0;
     width: 100%;
     padding: 10px 0;
     text-align: center;
 
-    p {
+    span {
         font-size: 14px;
         margin-bottom: 5px;
-        display: inline-block; /* Make the paragraphs inline */
+        display: inline-block;
         padding: 0 10px; /* Add padding to space out the elements */
         position: relative;        
     }
 
-    p:not(:last-child):after {
+    span:not(:last-child):after {
         content: "|"; /* Add a vertical separator */
         position: absolute;
         right: -5px; /* Adjust the position to place the separator correctly */
@@ -51,7 +50,6 @@
 .logo-cloud {
     display: grid;
     
-    // grid-template-rows: repeat(auto-fit, 80px);
     grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
     grid-template-rows: repeat(auto-fit, 80px);
     grid-auto-rows: 80px;
@@ -71,7 +69,7 @@
     border-style: solid;
     padding: 4px;
 
-    .logo-cloud-item {
+    div {
         --weight: 1;
         --aspect_x: 1;
         --aspect_y: 1;
