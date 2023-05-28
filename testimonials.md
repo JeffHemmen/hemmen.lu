@@ -5,6 +5,7 @@ permalink: /testimonials/
 past_clients:
   - { name: "Aperture Labs",
       logo: "/assets/images/client_icons/aperture.png",
+      link: "/",
       weight: 1,
       aspect: {x: 1, y: 1}
     }

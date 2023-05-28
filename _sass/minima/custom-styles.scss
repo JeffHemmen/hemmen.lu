@@ -41,17 +41,17 @@
 .logo-cloud {
     display: grid;
     
-    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
-    grid-template-rows: repeat(auto-fit, 80px);
+    grid-template-columns: repeat(auto-fit, 80px);
+    // grid-template-rows: repeat(auto-fit, 80px);
     grid-auto-rows: 80px;
-    grid-auto-columns: 80px;
+    // grid-auto-columns: 80px;
     grid-auto-flow: dense;
     align-items: center;
     justify-items: center;
     justify-content: center;
     align-content: center;
     width: fit-content;
-    gap: 4px;
+    gap: 8px;
 
     background-color: $brand-color;
     border-width: 2px;
@@ -71,12 +71,34 @@
         justify-content: center;
         grid-column: span calc(var(--weight) * var(--aspect_x));
         grid-row: span calc(var(--weight) * var(--aspect_y));
+        padding: 4px;
+        margin-bottom: 4px;
+
         
-        img {
+        a {
             height: 100%;
             width: 100%;
-            object-fit: contain;            
+            transition-property: background-color, border-color;
+            border-width: 2px;
+            border-radius: 6px;
+            border-color: transparent;
+            border-style: solid;
+            transition-duration: 300ms;     
+            
+
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: contain;            
+            }
         }
+
+        a:hover {
+            background-color: darken($brand-color, 10%);
+            border-color: $brand-color-dark;
+            border-style: solid;
+        }
+        
     }
 }
 
