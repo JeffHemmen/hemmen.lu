@@ -51,7 +51,7 @@
     width: fit-content;
     gap: 8px;
 
-    background-color: $brand-color;
+    background-color: lighten($background-color, 50%);
     border-width: 2px;
     border-radius: 6px;
     border-color: $brand-color-dark;
@@ -70,33 +70,27 @@
         grid-column: span calc(var(--weight) * var(--aspect_x));
         grid-row: span calc(var(--weight) * var(--aspect_y));
 
-        transition-property: background-color, border-color;
-        border-width: 2px;
-        border-radius: 6px;
-        border-color: transparent;
-        border-style: solid;
-        transition-duration: 300ms;                 
+        // transition-property: background-color, border-color;
+        // border-width: 2px;
+        // border-radius: 6px;
+        // border-color: transparent;
+        // border-style: solid;
+        // transition-duration: 300ms;                 
         padding: 4px;
-        
-        a {
+
+        img {
             height: 100%;
-            width: 100%;           
-            
-
-            img {
-                height: 100%;
-                width: 100%;
-                object-fit: contain;            
-            }
-        }       
+            width: 100%;
+            object-fit: contain;            
+        }
         
     }
 
-    div:hover {
-        background-color: darken($brand-color, 10%);
-        border-color: $brand-color-dark;
-        border-style: solid;
-    }
+    // div:hover {
+    //     background-color: darken($brand-color, 10%);
+    //     border-color: $brand-color-dark;
+    //     border-style: solid;
+    // }
 }
 
 .credly-cert-container {
