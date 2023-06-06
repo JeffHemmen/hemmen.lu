@@ -193,11 +193,14 @@
     align-items: center;
     justify-content: center;
     height: 50vh;
+        h2 {
+            margin: 0px;
+        }
     }
 
     #envelope-icon {
-    width: 4vh;
-    height: auto;
+    height: 20px;
+    width: auto;
     vertical-align: middle;
     }
 
