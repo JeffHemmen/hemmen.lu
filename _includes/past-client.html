@@ -1,5 +1,5 @@
-<div style="--weight: {{client.weight}}; --aspect_x: {{client.aspect.x}}; --aspect_y: {{client.aspect.y}};">
+<div>
 
-<img src="{{client.logo}}" alt="{{client.name}} logo">
+<img src={{include.client_file.path | uri_escape}} alt={{include.client_file.basename}}>
     
 </div>

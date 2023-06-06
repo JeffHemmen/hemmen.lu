@@ -17,7 +17,8 @@ past_clients:
   - { name: "AWS",
       logo: "/assets/images/client_icons/aws.svg",
       weight: 1,
-      aspect: {x: 1, y: 1}
+      aspect: {x: 1, y: 1},
+      bg_colour: f07178
     }
   - { name: "HSBC",
       logo: "/assets/images/client_icons/hsbc.svg",

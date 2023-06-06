@@ -9,16 +9,17 @@ title: Testimonials
 <h1 class="page-heading">Past Clients</h1>
 <!-- grid of client logos -->
 
-<div class="logo-cloud">
-{% assign random_clients = page.past_clients | sample: page.past_clients.size %}
-
 {% comment %}
+{% assign random_clients = page.past_clients | sample: page.past_clients.size %}
 {% assign random_clients = page.past_clients | sort: "weight" | reverse %}
-{% endcomment %}
 
 {% for client in random_clients %}
 
 {% include past-client.html client=client %}
 
 {% endfor %}
-</div>
+{% endcomment %}
+
+{% include logo-cloud.html base_path='/assets/images/client_icons/consultant_on_behalf_of' %}
+{% include logo-cloud.html base_path='/assets/images/client_icons/delivered_training_to' %}
+{% include logo-cloud.html base_path='/assets/images/client_icons/worked_or_consulted_for' %}

@@ -1,0 +1,8 @@
+<div class="logo-cloud">
+
+{% assign logos = site.static_files | where_exp: "file","file.path contains include.base_path" %}
+{% for file in logos %}
+{% include past-client.html client_file=file %}
+{% endfor %}
+
+</div>
