@@ -81,20 +81,20 @@
             width: auto;
             object-fit: contain;       
             
-            transition-property: background-color, border-color;
-            border-width: 2px;
-            border-radius: 6px;
-            border-color: transparent;
-            border-style: solid;
-            transition-duration: 300ms;                 
+            // transition-property: background-color, border-color;
+            // border-width: 2px;
+            // border-radius: 6px;
+            // border-color: transparent;
+            // border-style: solid;
+            // transition-duration: 300ms;                 
             padding: 4px;
         }
 
-        img:hover {
-            background-color: darken($brand-color, 10%);
-            border-color: $brand-color-dark;
-            border-style: solid;
-        }
+        // img:hover {
+        //     background-color: darken($brand-color, 10%);
+        //     border-color: $brand-color-dark;
+        //     border-style: solid;
+        // }
         
     }
 
