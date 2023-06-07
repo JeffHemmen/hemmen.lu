@@ -1,5 +1,5 @@
 <div style="--width: {%- imagesize include.client_file.path:width -%}; --height: {%- imagesize include.client_file.path:height -%};">
 
-<img src={{include.client_file.path | uri_escape}} alt="{{include.client_file.basename}}">
+<img src={{include.client_file.path | uri_escape}} title="{{include.client_file.basename}}" alt="{{include.client_file.basename}}">
     
 </div>

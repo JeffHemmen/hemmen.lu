@@ -74,27 +74,31 @@
         // grid-row: span calc(var(--weight) * var(--aspect_y));
         
 
-        transition-property: background-color, border-color;
-        border-width: 2px;
-        border-radius: 6px;
-        border-color: transparent;
-        border-style: solid;
-        transition-duration: 300ms;                 
-        padding: 4px;
+        
 
         img {
             height: 80%;
             width: auto;
-            object-fit: contain;                        
+            object-fit: contain;       
+            
+            transition-property: background-color, border-color;
+            border-width: 2px;
+            border-radius: 6px;
+            border-color: transparent;
+            border-style: solid;
+            transition-duration: 300ms;                 
+            padding: 4px;
+        }
+
+        img:hover {
+            background-color: darken($brand-color, 10%);
+            border-color: $brand-color-dark;
+            border-style: solid;
         }
         
     }
 
-    div:hover {
-        background-color: darken($brand-color, 10%);
-        border-color: $brand-color-dark;
-        border-style: solid;
-    }
+    
 }
 
 .credly-cert-container {
