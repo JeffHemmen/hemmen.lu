@@ -1,5 +1,8 @@
-<div style="--width: {%- imagesize include.client_file.path:width -%}; --height: {%- imagesize include.client_file.path:height -%};">
+{% assign logos = site.static_files | where_exp: "file", "file.name contains include.company.logo" %}
+{% assign logo = logos[0] %}
 
-<img src={{include.client_file.path | uri_escape}} title="{{include.client_file.basename}}" alt="{{include.client_file.basename}}">
+<div style="grid-row: span {{include.company.span_x}}; grid-column: span {{include.company.span_y}};">
+
+<img src={{logo.path | uri_escape}} title="{{include.company.name}}" alt="{{logo.basename}}">
     
 </div>
