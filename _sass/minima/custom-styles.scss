@@ -69,33 +69,13 @@
         width: 100%;
         align-items: center;
         justify-content: center;
-        grid-column: span max(calc(var(--width) / var(--height)), 1);
-        grid-row: span max(calc(var(--height) / var(--width)), 1);
-        // grid-row: span calc(var(--weight) * var(--aspect_y));
         
-
-        
-
         img {
             height: 80%;
             width: auto;
-            object-fit: contain;       
-            
-            // transition-property: background-color, border-color;
-            // border-width: 2px;
-            // border-radius: 6px;
-            // border-color: transparent;
-            // border-style: solid;
-            // transition-duration: 300ms;                 
+            object-fit: contain;             
             padding: 4px;
         }
-
-        // img:hover {
-        //     background-color: darken($brand-color, 10%);
-        //     border-color: $brand-color-dark;
-        //     border-style: solid;
-        // }
-        
     }
 
     

@@ -36,7 +36,6 @@ github_username:  jekyll
 theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-image-size
 
 header_pages:
   - testimonials.md
