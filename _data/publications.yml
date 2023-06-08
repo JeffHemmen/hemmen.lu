@@ -1,23 +1,45 @@
-# - url: 
+- url: https://medium.com/ecs-digital/managing-your-consul-cluster-with-terraform-9b72c3f5ac6e
+  title: "Managing Your Consul Cluster with Terraform"
+  date: 2019-05-30
+  # synopsis:
+  # thumbnail:
 
-# https://medium.com/ecs-digital/managing-your-consul-cluster-with-terraform-9b72c3f5ac6e
-# https://www.youtube.com/watch?v=S4IgDMfCb4w
-# https://www.youtube.com/watch?v=Ei8kzyGTonw
-# https://medium.com/ecs-digital/terraform-refresh-is-deprecated-fd3418552da2
+- url: https://www.youtube.com/watch?v=S4IgDMfCb4w
+  title: Virtual DevOps Playground – Hands-On Service Mesh with Consul Connect
+  date: 2020-06-25
 
-# https://softwareengineeringdaily.com/2022/12/07/openssl-vulnerability/
+- url: https://www.youtube.com/watch?v=Ei8kzyGTonw
+  title: "DevOps Playground: Hands-on with Terraform Cloud"
+  date: 2020-03-23
 
-# https://softwareengineeringdaily.com/2022/12/12/minimizing-pii-in-dev-environments/
+- url: https://medium.com/ecs-digital/terraform-refresh-is-deprecated-fd3418552da2
+  title: "`terraform refresh` is deprecated"
+  date: 2021-06-06
 
-# https://softwareengineeringdaily.com/2023/03/22/painless-security-operations/
+- url: https://softwareengineeringdaily.com/2022/12/07/openssl-vulnerability/
+  title: "OpenSSL Vulnerability with Ilkka Turunen"
+  date: 2022-12-07
 
-# https://softwareengineeringdaily.com/2023/04/19/insfrastructure-as-code/
+- url: https://softwareengineeringdaily.com/2022/12/12/minimizing-pii-in-dev-environments/
+  title: "Minimizing PII in Dev Environments with John Craft"
+  date: 2022-12-12
 
-# https://softwareengineeringdaily.com/2023/04/24/cloud-oriented-programming/
+- url: https://softwareengineeringdaily.com/2023/03/22/painless-security-operations/
+  title: "Seamless SecOps with Jack Naglieri"
+  date: 2023-03-22
 
-# https://softwareengineeringdaily.com/category/all-episodes/exclusive-content/Podcast/
+- url: https://softwareengineeringdaily.com/2023/04/19/insfrastructure-as-code/
+  title: "Cloud-Oriented Programming (Part 1) with Elad Ben-Israel"
+  date: 2023-04-19
 
-# https://secretsofvault.com/
+- url: https://softwareengineeringdaily.com/2023/04/24/cloud-oriented-programming/
+  title: "Cloud-Oriented Programming (Part 2) with Elad Ben-Israel"
+  date: 2023-04-24
 
-# https://vaultpolicies.dev/
 
+# - url: https://softwareengineeringdaily.com/category/all-episodes/exclusive-content/Podcast/
+
+# - url: https://secretsofvault.com/
+
+# - url: https://vaultpolicies.dev/
+#   title: "VaultPolicies.dev"
