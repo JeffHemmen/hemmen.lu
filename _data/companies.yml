@@ -99,7 +99,7 @@ trained:
   - name: Allianz
     logo: Allianz.png
     span_row: 1
-    span_col: 2
+    span_col: 3
 
   - name: G Research
     logo: G Research.png
@@ -119,4 +119,4 @@ trained:
   - name: Providence
     logo: Providence.png
     span_row: 1
-    span_col: 2
+    span_col: 3
