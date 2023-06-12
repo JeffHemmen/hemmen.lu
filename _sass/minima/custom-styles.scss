@@ -91,73 +91,84 @@
 
 .site-nav {
 
-    ul {
-        list-style-type: none;
-        margin: 0;
-        li {
-            display: block;
-            position: relative;
+    .trigger {
+        ul {
+            list-style-type: none;
+            margin: 0;
+            li {
+                display: block;
+                position: relative;
+    
+                .dropdown {
+                    
+                    visibility: hidden;
+                    // opacity: 0;
+                    position: absolute;
+                    transition: all 0.5s ease;
+                    margin-top: 1rem;
+                    left: 0;
+                    display: none;
+    
+                    li {
+                        clear: both;
+                    }
+                }  
+            }
 
+            li:hover {
+                .dropdown {
+                    z-index: 99;
+                    background-color: lighten($background-color, 2%);
+                    visibility: visible;
+                    // opacity: 1;
+                    display: block;
+                    border-width: 1px;
+                    border-style: solid;
+                    border-radius: 4px;
+                    border-color: $brand-color;
+                }                    
+            }
+        }
+    
+        .page-link {
+    
+            border-color: transparent;
+            border-width: 2px;
+            background-color: transparent;
+            transition-property: background-color;
+            transition-duration: 300ms;        
+        }
+    
+        .page-link:hover {   
+            background-color: lighten($background-color, 20%);
+            text-decoration: none;
+        }
+    
+        .page-link-active {
+        @extend .page-link;
+            background-color: lighten($background-color, 10%);
+            // border-width: 2px;
+            border-color: $brand-color-light;
+            border-left-style: solid;
+        }
+        
+        @media screen and (min-width: $on-medium) {
+    
             ul {
-                visibility: hidden;
-                opacity: 0;
-                position: absolute;
-                transition: all 0.5s ease;
-                margin-top: 1rem;
-                left: 0;
-                display: none;
-
                 li {
-                    clear: both;
+                    display: inline-block;
                 }
             }
-
-            li:hover > ul,
-            li ul:hover {
-                visibility: visible;
-                opacity: 1;
-                display: block;
+    
+            .page-link {
+                padding: 16px 4px 18px;
+                border-left-style: none;
+                border-bottom-style: solid;
+                margin-left: 20px;
             }
         }
-    }
-
-    .page-link {
-
-        border-color: transparent;
-        border-width: 2px;
-        background-color: transparent;
-        transition-property: background-color;
-        transition-duration: 300ms;        
-    }
-
-    .page-link:hover {   
-        background-color: lighten($background-color, 20%);
-        text-decoration: none;
-    }
-
-    .page-link-active {
-    @extend .page-link;
-        background-color: lighten($background-color, 10%);
-        // border-width: 2px;
-        border-color: $brand-color-light;
-        border-left-style: solid;
     }
     
-    @media screen and (min-width: $on-medium) {
-
-        ul {
-            li {
-                display: inline-block;
-            }
-        }
-
-        .page-link {
-            padding: 16px 4px 18px;
-            border-left-style: none;
-            border-bottom-style: solid;
-            margin-left: 20px;
-        }
-    }
 }
 
 .site-title {

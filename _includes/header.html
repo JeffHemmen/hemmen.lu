@@ -1,9 +1,7 @@
 <header class="site-header">
     <div class="wrapper">
-      {%- assign default_paths = site.pages | map: "path" -%}
-      {%- assign page_paths = site.header_pages | default: default_paths -%}
-      {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
-
+      {%- assign header_pages = site.header_pages -%}
+      {%- assign titles_size = header_pages | map: 'title' | join: '' | size -%}
 
       <!-- <span class="company-logo">
         <img id="logo" src="/logo.png" alt="Company Logo">
@@ -28,17 +26,21 @@
   
           <div class="trigger">
             <ul>
-            {%- for path in page_paths -%}
-              {%- assign my_page = site.pages | where: "path", path | first -%}
-              {%- if my_page.title -%}
-                {%- if my_page.url == page.url -%}
-                  <li><a class="page-link-active" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
-                {%- else -%}
-                  <li><a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
-                {%- endif -%}
-              
+
+            {%- for header_page in header_pages -%}
+              {%- if header_page.dropdown -%}
+                <li><a class="page-link" href='#'>{{header_page.title}}</a>
+                  <ul class="dropdown">
+                    {%- for sub_page in header_page.dropdown -%}
+                    {%- include header_page_link.html path=sub_page.path -%}
+                    {%- endfor -%}
+                  </ul>
+                </li>
+              {%- else -%}
+              {%- include header_page_link.html path=header_page.path -%}
               {%- endif -%}
             {%- endfor -%}
+            
             </ul>
           </div>
         </nav>

@@ -38,10 +38,18 @@ theme: minima
 #   - jekyll-feed
 
 header_pages:
-  - clients.md
-  - certifications.md
-  - publications.md
-  - about.md
+  - title: Clients
+    path: clients.md
+  - title: Certifications
+    path: certifications.md
+  - title: Publications
+    path: publications.md
+  - title: About
+    dropdown:
+    - title: About Jeff
+      path: about_jeff.md
+    - title: About the company
+      path: about_company.md
 
 minima:
   skin: hemmen
