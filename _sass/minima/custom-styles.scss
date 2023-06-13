@@ -238,3 +238,21 @@
         font-size: 20px;
     }
 }
+
+.verify-link {
+
+    padding: 2px;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: $brand-color-dark;
+
+    a:hover {
+        text-decoration: none;
+    }
+}
+
+.verify-link:hover {
+    border-color: $brand-color-light;
+    background-color: lighten($background-color, 5%);
+}
