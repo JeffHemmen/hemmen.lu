@@ -31,7 +31,7 @@ employers:
     span_col: 1
 
   - name: AIB
-    logo: AIB.jpg
+    logo: AIB.svg
     span_row: 1
     span_col: 1
 
@@ -66,7 +66,7 @@ employers:
     span_col: 2
 
   - name: LSE Group
-    logo: LSE Group.png
+    logo: LSE Group.svg
     span_row: 1
     span_col: 2
 
