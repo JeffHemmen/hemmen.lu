@@ -104,7 +104,8 @@
 
                     position: absolute;
                     width: max-content;
-                    right: 20px;
+                    right: 100%;
+                    top: 0;
                     display: block;          
                     border-width: 1px;
                     border-style: solid;
@@ -137,7 +138,7 @@
         }
     
         .page-link {
-    
+            margin: 0;
             border-color: transparent;
             border-width: 2px;
             background-color: transparent;
@@ -145,7 +146,7 @@
             transition-duration: 300ms;        
         }
     
-        .page-link:hover, .page-link:focus-within {   
+        .page-link:hover, .page-link:focus {   
             background-color: lighten($background-color, 20%);
             text-decoration: none;
         }
@@ -162,6 +163,11 @@
             ul {
                 li {
                     display: inline-block;
+
+                    .dropdown {
+                        right: 0;
+                        top: unset;
+                    }
                 }
             }
     
@@ -198,7 +204,7 @@
     border-width: 2px;
 }
 
-.site-title:hover {
+.site-title:hover, .site-title:focus {
     background-color: lighten($background-color, 20%);
     text-decoration: none;
 }
