@@ -254,6 +254,12 @@
     border-style: solid;
     border-width: 1px;
     border-color: $brand-color-dark;
+
+    img {
+        height: .8em;
+        margin-left: 4px;
+        vertical-align: baseline;
+    }
 }
 
 .verify-link:hover {
