@@ -132,6 +132,7 @@
             }
 
             li:hover, li:focus-within {
+                background-color: lighten($background-color, 20%);
                 .dropdown {
                     visibility: visible;                    
                 }                    
