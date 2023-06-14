@@ -78,8 +78,6 @@
             padding: 4px;
         }
     }
-
-    
 }
 
 .credly-cert-container {
@@ -123,6 +121,11 @@
                     .page-link {
                         display: block;
                     }
+
+                    .page-link-active {
+                        border-left-style: solid;
+                        border-bottom-style: none;
+                    }
                 }  
             }
 
@@ -142,7 +145,7 @@
             transition-duration: 300ms;        
         }
     
-        .page-link:hover {   
+        .page-link:hover, .page-link:focus-within {   
             background-color: lighten($background-color, 20%);
             text-decoration: none;
         }
@@ -237,7 +240,6 @@
 }
 
 .verify-link {
-
     padding: 2px;
     border-radius: 4px;
     border-style: solid;

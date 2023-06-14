@@ -50,6 +50,8 @@ header_pages:
       path: about_jeff.md
     - title: About the company
       path: about_company.md
+    - title: Transparency
+      path: transparency.md
 
 minima:
   skin: hemmen
