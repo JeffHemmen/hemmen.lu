@@ -128,7 +128,7 @@
                         border-left-style: solid;
                         border-bottom-style: none;
                     }
-                }  
+                }
             }
 
             li:hover, li:focus-within {
@@ -145,12 +145,6 @@
             background-color: transparent;
             transition-property: background-color;
             transition-duration: 300ms; 
-            
-            :after {
-                content: "hello";
-                position: relative;
-            }
-            
         }
     
         .page-link:hover, .page-link:focus {   
@@ -253,6 +247,7 @@
 }
 
 .verify-link {
+    margin-left: .5em;
     padding: 2px;
     border-radius: 4px;
     border-style: solid;
