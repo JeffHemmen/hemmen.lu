@@ -37,6 +37,14 @@
     @extend .grid-container;
     grid-template-columns: repeat(auto-fill, 160px);
     gap: 10px;
+
+    .credly-cert-container {
+        background-color: $brand-color;
+        padding: 5px;
+        border: 2px;
+        border-radius: 6px;
+        border-color: $brand-color-dark;
+    }
 }
 
 .logo-cloud {
@@ -78,14 +86,6 @@
             padding: 4px;
         }
     }
-}
-
-.credly-cert-container {
-    background-color: $brand-color;
-    padding: 5px;
-    border: 2px;
-    border-radius: 6px;
-    border-color: $brand-color-dark;
 }
 
 .site-nav {
@@ -255,16 +255,63 @@
     border-width: 1px;
     border-color: $brand-color-dark;
     float: right;
-
-    img {
-        height: .8em;
-        margin-left: 4px;
-        vertical-align: baseline;
-    }
 }
 
 .verify-link:hover {
     text-decoration: none;
     border-color: $brand-color-light;
     background-color: lighten($background-color, 5%);
+}
+
+.outgoing-link {
+    height: .8rem;
+    margin-left: 4px;
+    vertical-align: super;
+}
+
+.publication-card {
+
+    text-decoration: none;
+
+    div {
+        display:grid;
+        border-color: $brand-color;
+        border-width: 2px;
+        border-style: solid;
+        border-radius: 6px;
+        padding: 4px;
+        grid-template-columns: auto 8rem;
+
+        .publication-content {
+
+            h3 {
+                color: $text-color;
+            }
+    
+            .publication-date {
+                font-size: .8rem;
+            }
+    
+            p {
+                font-size: 1rem;
+            }
+        }        
+
+        .publication-thumbnail {
+            padding: .5rem;
+            img {
+                object-fit: contain;
+            }            
+        }
+    }    
+}
+
+.publication-card:hover, .publication-card:focus {
+    text-decoration: none;
+
+    div {
+        h3 {
+            color: $link-hover-color;
+        }
+    }
 }

@@ -1,0 +1,11 @@
+{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+<a class="publication-card" href="{{ include.publication.url }}" target="_blank">
+    <div>  
+        <span class="publication-content">  
+            <h3>{{include.publication.title | escape }}<img class="outgoing-link" src="/assets/icons/external_link.svg"></h3>
+            <span class="publication-date">published {{include.publication.date | date: date_format}}</span>
+            <p>{{include.publication.synopsis}}</p>
+        </span>
+        <span class="publication-thumbnail"><img src="{{ include.publication.thumbnail }}"></span>
+    </div>
+</a>

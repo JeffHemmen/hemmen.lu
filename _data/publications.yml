@@ -1,8 +1,8 @@
 - url: https://medium.com/ecs-digital/managing-your-consul-cluster-with-terraform-9b72c3f5ac6e
   title: "Managing Your Consul Cluster with Terraform"
   date: 2019-05-30
-  # synopsis:
   # thumbnail:
+  # tags: {}
 
 - url: https://www.youtube.com/watch?v=S4IgDMfCb4w
   title: Virtual DevOps Playground – Hands-On Service Mesh with Consul Connect
@@ -15,6 +15,8 @@
 - url: https://medium.com/ecs-digital/terraform-refresh-is-deprecated-fd3418552da2
   title: "`terraform refresh` is deprecated"
   date: 2021-06-06
+  thumbnail: "/assets/images/post_thumbs/terraform_refresh_deprecated.jpg"  
+  synopsis: "In this, Jeff lorems the ipsum about things the designer of this website knows nothing about. This is placeholder text to test the layout."
 
 - url: https://softwareengineeringdaily.com/2022/12/07/openssl-vulnerability/
   title: "OpenSSL Vulnerability with Ilkka Turunen"
