@@ -8,7 +8,8 @@ layout: base
 
 {{ content }}
 
-{% assign posts = site.data.publications | sort: "date" | reverse %}
+{% assign posts = site.publications | concat: site.publications_external %}
+{% assign posts = posts | sort: "date" | reverse %}
 
 {%- if posts.size > 0 -%}
   <ul class="post-list">
