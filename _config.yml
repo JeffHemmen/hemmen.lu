@@ -54,6 +54,7 @@ header_pages:
 collections:
   publications:
     output: true
+    permalink: /publications/:path
   publications_external:
     output: false
 
