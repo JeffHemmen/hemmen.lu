@@ -5,4 +5,7 @@ date: 2021-06-06
 thumbnail: "/assets/images/post_thumbs/2021-06-06-terraform-refresh-deprecated.webp"
 ---
 
-In this, Jeff lorems the ipsum about things the designer of this website knows nothing about. This is placeholder text to test the layout.
+Update: terraform refresh is now effectively an alias for:
+terraform apply -refresh-only -auto-approve.
+
+This is still dangerous. Read on…
