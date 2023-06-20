@@ -3,6 +3,8 @@ external_url: https://medium.com/ecs-digital/terraform-refresh-is-deprecated-fd3
 title: "`terraform refresh` is deprecated"
 date: 2021-06-06
 thumbnail: "/assets/images/post_thumbs/2021-06-06-terraform-refresh-deprecated.webp"
+type: article
+role: author
 ---
 
 Update: terraform refresh is now effectively an alias for:

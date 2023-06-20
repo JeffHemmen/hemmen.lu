@@ -3,6 +3,8 @@ external_url: https://medium.com/ecs-digital/managing-your-consul-cluster-with-t
 title: "Managing Your Consul Cluster with Terraform"
 date: 2019-05-30
 thumbnail: "/assets/images/post_thumbs/2019-05-30-managing_consul_cluster.webp"
+type: article
+role: author
 ---
 
 This is an article about the Consul provider for Terraform, not the backend. This is about using Terraform as a way to manage your Consul cluster’s configuration from a centralised Terraform project.

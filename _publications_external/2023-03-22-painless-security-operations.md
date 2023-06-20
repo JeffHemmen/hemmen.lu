@@ -3,6 +3,8 @@ external_url: https://softwareengineeringdaily.com/2023/03/22/painless-security-
 title: "Seamless SecOps with Jack Naglieri"
 date: 2023-03-22
 thumbnail: /assets/images/post_thumbs/2023-03-22-painless-security-operations.webp
+type: podcast
+role: host
 ---
 
 A SIEM platform provides organizations with a powerful tool for improving their security posture, by providing insights into potential security threats and enabling proactive security measures.

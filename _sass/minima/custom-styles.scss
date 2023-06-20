@@ -283,6 +283,21 @@
         padding: 6px;
         grid-template-columns: auto max-content;
 
+        .publication-tags {
+            span {
+                border: 1px;
+                border-color: $brand-color;
+                border-style: solid;
+                border-radius: 4px;
+                padding: 2px;                
+            }
+
+            span:not(:last-child) {
+                margin-right: 2px;
+            }
+            
+        }
+
         .publication-content {
 
             h3 {
@@ -314,10 +329,12 @@
 
 .publication-card:hover, .publication-card:focus {
     text-decoration: none;
+    color: $link-base-color;
 
     div {
         h3 {
             color: $link-hover-color;
+            text-decoration: underline;
         }
     }
 }
