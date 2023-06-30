@@ -142,8 +142,6 @@
         .page-link {
             display: block;
             margin: 0;
-            border-color: transparent;
-            border-width: 2px;
             background-color: transparent;
             transition-property: background-color;
             transition-duration: 300ms; 
@@ -159,6 +157,7 @@
             background-color: lighten($background-color, 10%);
             border-color: $brand-color-light;
             border-left-style: solid;
+            border-width: 2px;
         }
         
         @media screen and (min-width: $on-medium) {
@@ -179,8 +178,14 @@
                 padding-left: 1rem;
                 padding-right: 1rem;
                 // padding: .875rem 1rem;
+                
+            }
+
+            .page-link-active {
                 border-left-style: none;
                 border-bottom-style: solid;
+                border-width: 2px;
+                margin-bottom: -2px;
             }
         }
     }
@@ -189,9 +194,6 @@
 
 .site-title {
     padding-right: 1rem;
-    border-bottom-style: solid;
-    border-color: transparent;
-    border-width: 2px;
 
     background-color: transparent;
     transition-property: background-color;
@@ -205,9 +207,11 @@
 
 .site-title-current {
     @extend .site-title;
+
     border-bottom-style: solid;
     border-color: $brand-color-light;
     border-width: 2px;
+    margin-bottom: -2px;
 }
 
 .site-title:hover, .site-title:focus {
