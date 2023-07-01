@@ -283,13 +283,15 @@
 
     div {
         display:grid;
+        overflow: hidden;
         gap: 1em;
         border-color: $brand-color;
         border-width: 2px;
         border-style: solid;
-        border-radius: 6px;
+        border-radius: 2px;
         padding: 6px;
         grid-template-columns: auto max-content;
+        grid-template-rows: auto auto;
 
         .publication-tags {
             span {
@@ -307,6 +309,8 @@
         }
 
         .publication-content {
+
+            // float: left;
 
             h3 {
                 color: $text-color;
@@ -331,8 +335,15 @@
             object-position: top;
             border-radius: 4px;
             border-width: 0;
+            // float: right;
         }
     }    
+}
+
+@media screen and (min-width: $on-medium) {
+    // .publication-card {
+
+    // }
 }
 
 .publication-card:hover, .publication-card:focus {
