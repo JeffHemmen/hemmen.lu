@@ -3,6 +3,6 @@
 
 <div style="grid-row: span {{include.company.span_row}}; grid-column: span {{include.company.span_col}};"{%if include.company.redacted%} class="logo-redacted"{%endif%}>
 
-{% unless include.company.redacted %}<img src={{logo.path | uri_escape}} title="{{include.company.name}}" alt="{{logo.basename}}">{% endunless %}
+{% unless include.company.redacted %}<img src={{logo.path | uri_escape}} title="{{include.company.name}}" alt="{{include.company.name}}">{% endunless %}
     
 </div>
