@@ -86,6 +86,19 @@
             padding: 4px;
         }
     }
+
+    .logo-redacted {
+        background-color: black;
+
+        img {
+            visibility: hidden;
+        }
+    }
+
+    .logo-redacted:after {
+        content: "[redacted]";
+        color: white;
+    }
 }
 
 .site-nav {
