@@ -3,6 +3,7 @@ consulted:
     logo: AWS.svg
     span_row: 1
     span_col: 2
+    redacted: true
 
   - name: HashiCorp
     logo: HashiCorp.svg
