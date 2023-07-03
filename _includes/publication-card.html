@@ -8,11 +8,12 @@
 <a class="publication-card" href="{{ actual_url }}"{%- if include.publication.external_url -%} target="_blank"{%- endif -%}>
     <div>  
         <span class="publication-content">  
+            <img src="{{ include.publication.thumbnail }}" class="publication-thumbnail">
             <h3>{{include.publication.title | escape }}{%- if include.publication.external_url -%}<img class="outgoing-link" src="/assets/icons/external_link.svg">{%- endif -%}</h3>
             <span class="publication-tags"><span>{{include.publication.type}}</span><span>{{include.publication.role}}</span></span>
             <span class="publication-date">published {{include.publication.date | date: date_format}}</span>
             <p>{{include.publication.excerpt}}</p>
         </span>
-        <img src="{{ include.publication.thumbnail }}">
+        
     </div>
 </a>
