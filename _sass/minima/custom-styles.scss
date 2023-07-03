@@ -97,6 +97,7 @@
 
     .logo-redacted:after {
         content: "[redacted]";
+        position: absolute;
         color: white;
     }
 }
