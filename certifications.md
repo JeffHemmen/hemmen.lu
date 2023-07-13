@@ -34,4 +34,8 @@ credly-certs:
   - { title: "Vault: Authorized HashiCorp Instructor",
         id: "2db2e8cd-f9f4-4264-b819-e195510f03f6",
     }
+  - {
+      title: "HashiCorp Certified: Vault Operations Professional",
+      id: "51f4b61f-41bf-4d54-9628-ea8074ca66c7"
+    }
 ---
