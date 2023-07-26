@@ -1,7 +1,7 @@
 ---
 layout: certifications
 title: Certifications
-permalink: /certifications/
+permalink: /staging/certifications/
 credly-certs:
   - { title: "AWS Certified Solutions Architect – Associate",
         id: "17f72bd2-73d4-4001-90f0-7546ab695a45"

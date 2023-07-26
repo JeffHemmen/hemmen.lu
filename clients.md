@@ -1,5 +1,5 @@
 ---
 layout: clients
 title: Clients
-permalink: /clients/
+permalink: /staging/clients/
 ---

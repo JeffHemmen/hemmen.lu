@@ -1,5 +1,5 @@
 ---
 layout: publications
 title: Publications
-permalink: /publications/
+permalink: /staging/publications/
 ---

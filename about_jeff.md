@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About Jeff Hemmen
-permalink: /about_jeff/
+permalink: /staging/about_jeff/
 ---
 
 ## CV

@@ -6,8 +6,8 @@
       <!-- <span class="company-logo">
         <img id="logo" src="/logo.png" alt="Company Logo">
       </span> -->
-      <a class={% if page.layout == 'home' %}"site-title-current"{% else %}"site-title"{% endif %} rel="author" href="{{ "/" | relative_url }}">
-        <img id="logo" src="/logo.svg" alt="Company Logo">
+      <a class={% if page.layout == 'home' %}"site-title-current"{% else %}"site-title"{% endif %} rel="author" href="{% link index.md %}">
+        <img id="logo" src={{"/logo.svg" | relative_url}} alt="Company Logo">
         {{ site.title | escape }}
       </a>
   
