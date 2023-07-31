@@ -1,0 +1,15 @@
+---
+layout: base
+---
+
+<h1 class="page-heading">Certifications</h1>
+
+<div class="credly-grid-container">
+{%- for cert in page.credly-certs -%}
+
+<div class="grid-item">
+{%- include credly-cert.html cert=cert -%}
+</div>
+
+{%- endfor -%}
+</div>

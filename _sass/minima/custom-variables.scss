@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "Avenir Light";
+    src: url("/avenir-light.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+$base-font-family: "Avenir Light";
+
+$on-medium: 720px;

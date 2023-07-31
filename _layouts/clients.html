@@ -1,0 +1,18 @@
+---
+layout: base
+---
+
+<!-- <h1 class="page-heading">Testimonials</h1> -->
+<!-- list of testimonials -->
+
+<!-- <h1 class="page-heading">Past Clients</h1> -->
+<!-- grid of client logos -->
+
+<h2>Consulted on behalf of...</h2>
+{% include logo-cloud.html companies=site.data.companies.consulted base_path='/assets/images/company_logos/consultant_on_behalf_of' %}
+
+<h2>Clients and Employers</h2>
+{% include logo-cloud.html companies=site.data.companies.employers base_path='/assets/images/company_logos/clients_employers' %}
+
+<h2>Delivered training to...</h2>
+{% include logo-cloud.html companies=site.data.companies.trained base_path='/assets/images/company_logos/delivered_training_to' %}

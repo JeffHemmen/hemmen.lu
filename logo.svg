@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   width="950"
+   height="950"
+   viewBox="0 0 950 950"
+   id="svg29"
+   sodipodi:docname="logo.svg"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs33">
+    <defs
+       id="SvgjsDefs1343">
+      <linearGradient
+         id="SvgjsLinearGradient1348">
+        <stop
+           id="SvgjsStop1349"
+           stop-color="#8f5e25"
+           offset="0" />
+        <stop
+           id="SvgjsStop1350"
+           stop-color="#fbf4a1"
+           offset="0.5" />
+        <stop
+           id="SvgjsStop1351"
+           stop-color="#8f5e25"
+           offset="1" />
+      </linearGradient>
+    </defs>
+  </defs>
+  <sodipodi:namedview
+     id="namedview31"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     showgrid="false"
+     inkscape:zoom="0.38263165"
+     inkscape:cx="1284.5252"
+     inkscape:cy="66.643728"
+     inkscape:window-width="3840"
+     inkscape:window-height="2081"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg29" />
+  <g
+     id="SvgjsG1344"
+     featureKey="G09qjj-0"
+     transform="matrix(7.7934672,0,0,7.7934672,85.326643,85.32664)"
+     fill="#ffe3b0">
+    <path
+       d="M 48.82959,41.38037 V 58.61914 H 66.06885 V 41.38037 Z M 64.06885,56.61914 H 50.82959 V 43.38037 h 13.23926 z"
+       id="path7" />
+    <polygon
+       points="85.539,54.81 85.539,52.81 77.214,52.81 77.214,47.873 87.643,47.873 87.643,45.873 77.214,45.873 77.214,40.765 84.061,40.765 84.061,38.765 77.214,38.765 77.214,30.235 73.688,30.235 73.688,24.298 71.688,24.298 71.688,30.235 66.069,30.235 66.069,18.612 64.069,18.612 64.069,30.235 58.449,30.235 58.449,14.973 56.449,14.973 56.449,30.235 50.83,30.235 50.83,19.09 36.808,19.09 36.808,21.09 48.83,21.09 48.83,30.235 43.29,30.235 43.29,32.235 75.214,32.235 75.214,64.159 77.214,64.159 77.214,61.634 84.061,61.634 84.061,59.634 77.214,59.634 77.214,54.81 "
+       id="polygon9" />
+    <rect
+       x="28.449221"
+       y="19.09033"
+       width="4.77637"
+       height="2"
+       id="rect11" />
+    <rect
+       x="81.672363"
+       y="78.910156"
+       width="4.7768602"
+       height="2"
+       id="rect13" />
+    <rect
+       x="6.5"
+       y="31.713869"
+       width="3.8666999"
+       height="2"
+       id="rect15" />
+    <polygon
+       points="24.566,31.714 14.688,31.714 14.688,33.714 23.461,33.714 27.897,40.765 37.684,40.765 37.684,45.873 8.433,45.873 8.433,47.873 37.684,47.873 37.684,52.81 18.214,52.81 18.214,54.81 37.684,54.81 37.684,59.634 27.897,59.634 23.461,66.685 14.688,66.685 14.688,68.685 24.566,68.685 29.001,61.634 37.684,61.634 37.684,69.765 41.21,69.765 41.21,75.702 43.21,75.702 43.21,69.765 48.83,69.765 48.83,81.389 50.83,81.389 50.83,69.765 56.449,69.765 56.449,85.027 58.449,85.027 58.449,69.765 64.069,69.765 64.069,80.91 78.09,80.91 78.09,78.91 66.069,78.91 66.069,69.765 71.608,69.765 71.608,67.765 39.684,67.765 39.684,35.841 37.684,35.841 37.684,38.765 29.001,38.765 "
+       id="polygon17" />
+    <rect
+       x="6.5"
+       y="66.68457"
+       width="3.8666999"
+       height="2"
+       id="rect19" />
+    <rect
+       x="90.429199"
+       y="45.872559"
+       width="3.0708001"
+       height="2"
+       id="rect21" />
+  </g>
+</svg>
