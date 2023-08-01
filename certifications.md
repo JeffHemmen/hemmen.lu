@@ -14,7 +14,6 @@ credly-certs:
     }
   - { title: "CKAD: Certified Kubernetes Application Developer",
         id: "e6802be9-77fc-475e-a093-55963410db98",
-        expired: true
     }
   - { title: "AWTerraform: Certified HashiCorp Implementation Partner (CHIP)S",
         id: "8d579913-fd46-4ca2-9adb-da11a566591c",
@@ -37,5 +36,9 @@ credly-certs:
   - {
       title: "HashiCorp Certified: Vault Operations Professional",
       id: "51f4b61f-41bf-4d54-9628-ea8074ca66c7"
+    }
+  - {
+      title: "HashiCorp Certified: Vault Operations Professional Exam Contributor",
+      id: "20582f08-d464-43da-b5a7-2dafd2568d21"
     }
 ---
