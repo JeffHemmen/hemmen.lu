@@ -19,6 +19,11 @@ consulted:
     span_row: 1
     span_col: 2
 
+  - name: World Wide Technology
+    logo: World_Wide_Technology.jpg
+    span_row: 1
+    span_col: 3
+
 employers:
   - name: ClearScore
     logo: ClearScore.png
