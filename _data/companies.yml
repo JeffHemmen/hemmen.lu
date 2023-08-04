@@ -28,6 +28,11 @@ consulted:
     span_row: 1
     span_col: 3
 
+  - name: River Point Technology
+    logo: river_point_technology.png
+    span_row: 1
+    span_col: 2
+
 employers:
   - name: ClearScore
     logo: ClearScore.png
