@@ -1,7 +1,11 @@
 consulted:
   - name: AWS
-    logo: AWS.svg
-    span_row: 1
+    # logo: AWS.svg
+    redacted: true
+    description: Major Cloud Provider
+    sector: cloud computing
+    emoji: ☁️
+    span_row: 2
     span_col: 2
 
   - name: HashiCorp
@@ -31,13 +35,21 @@ employers:
     span_col: 2
 
   - name: Aeroguest
-    logo: Aeroguest.png
-    span_row: 1
-    span_col: 1
+    # logo: Aeroguest.png
+    redacted: true
+    description: Hospitality Technology
+    sector: hospitality technology
+    emoji: 🧳
+    span_row: 2
+    span_col: 2
 
   - name: AIB
-    logo: AIB.svg
-    span_row: 1
+    redacted: true
+    description: Bank
+    sector: banking
+    emoji: 🏦
+    # logo: AIB.svg
+    span_row: 2
     span_col: 1
 
   - name: ARM
@@ -76,8 +88,12 @@ employers:
     span_col: 2
 
   - name: RSA Insurance Group
-    logo: RSA Insurance Group.png
-    span_row: 1
+    # logo: RSA Insurance Group.png
+    redacted: true
+    description: Insurance
+    sector: insurance
+    emoji: 🛡️
+    span_row: 2
     span_col: 1
 
   - name: Sainsbury's Bank
@@ -91,9 +107,13 @@ employers:
     span_col: 2
 
   - name: VERO
-    logo: VERO.png
-    span_row: 1
-    span_col: 2
+    # logo: VERO.png
+    redacted: true
+    description: Social Media
+    sector: social media
+    emoji: 📲
+    span_row: 2
+    span_col: 1
 
   - name: Zurich
     logo: Zurich.svg

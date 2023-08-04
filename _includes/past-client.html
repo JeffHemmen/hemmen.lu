@@ -1,8 +1,12 @@
+<div class="client-logo" style="grid-row: span {{include.company.span_row}}; grid-column: span {{include.company.span_col}};">
+
+{% if include.company.redacted %}
+<span role="img" title="Company in the {{include.company.sector}} sector" aria-label="Generic {{include.company.sector}} company icon" class="logo-redacted">{{include.company.emoji}}</span>
+<span class="company-sector">{{include.company.description}}</span>
+{% else %}
 {% assign logos = site.static_files | where_exp: "file", "file.name contains include.company.logo" %}
 {% assign logo = logos[0] %}
-
-<div style="grid-row: span {{include.company.span_row}}; grid-column: span {{include.company.span_col}};"{%if include.company.redacted%} class="logo-redacted"{%endif%}>
-
-{% unless include.company.redacted %}<img src={{logo.path | uri_escape | relative_url}} title="{{include.company.name}}" alt="{{include.company.name}}">{% endunless %}
+<img src={{logo.path | uri_escape | relative_url}} title="{{include.company.name}}" alt="{{include.company.name}}">
+{% endif %}
     
 </div>
