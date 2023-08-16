@@ -57,6 +57,14 @@ employers:
     span_row: 2
     span_col: 1
 
+  - name: ABN AMRO
+    redacted: true
+    description: Life Insurance (Luxembourg)
+    sector: insurance
+    emoji: 📈
+    span_row: 2
+    span_col: 2
+
   - name: ARM
     logo: ARM.png
     span_row: 1
@@ -107,8 +115,12 @@ employers:
     span_col: 2
 
   - name: The Economist
-    logo: The Economist.svg
-    span_row: 1
+    redacted: true
+    description: International Newspaper
+    sector: print media
+    emoji: 📰
+    # logo: The Economist.svg
+    span_row: 2
     span_col: 2
 
   - name: VERO
@@ -151,6 +163,10 @@ trained:
     span_col: 1
 
   - name: Providence
-    logo: Providence.png
-    span_row: 1
-    span_col: 3
+    redacted: true
+    description: Healthcare (India)
+    sector: healthcare
+    emoji: ⚕️
+    # logo: Providence.png
+    span_row: 2
+    span_col: 2
