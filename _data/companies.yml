@@ -59,7 +59,7 @@ employers:
 
   - name: ABN AMRO
     redacted: true
-    description: Life Insurance (Luxembourg)
+    description: Life Assurance (Luxembourg)
     sector: insurance
     emoji: 📈
     span_row: 2
