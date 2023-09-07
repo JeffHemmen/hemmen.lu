@@ -41,4 +41,13 @@ credly-certs:
       title: "HashiCorp Certified: Vault Operations Professional Exam Contributor",
       id: "20582f08-d464-43da-b5a7-2dafd2568d21"
     }
+
+other-certs:
+  - title: "Certified Ethical Hacker"
+    issuer: EC-Council
+    id: ECC5079461283
+    date-issued: 2022-09
+    date-expired: 2025-09
+    verification-url: "https://aspen.eccouncil.org/verify"
+    img: "/assets/images/certs/ethical-hacker.webp"
 ---

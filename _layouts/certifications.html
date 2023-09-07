@@ -5,11 +5,33 @@ layout: base
 <h1 class="page-heading">Certifications</h1>
 
 <div class="credly-grid-container">
-{%- for cert in page.credly-certs -%}
 
-<div class="grid-item">
+{%- for cert in page.other-certs -%}
+<div class="grid-item credly-cert-container">
+    <a href="{{cert.verification-url}}" target="_blank">
+        <div class="cert-badge-container">
+            <img src="{{cert.img | relative_url}}">
+        </div>
+        <div class="cert-title">
+            {{cert.title}}
+        </div>
+    </a>
+
+    <div class="cert-issuer">
+        Issuer: {{cert.issuer}}
+    </div>
+    <div class="cert-id">
+        Credential ID: {{cert.id}}
+    </div>
+</div>
+{%- endfor -%}
+
+{%- for cert in page.credly-certs -%}
+<div class="grid-item credly-cert-container">
 {%- include credly-cert.html cert=cert -%}
 </div>
-
 {%- endfor -%}
+
+
+
 </div>
