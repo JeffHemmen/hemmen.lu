@@ -1,18 +1,31 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+layout: base
 permalink: /staging/
 ---
 
-# What we do
-
-## Training
-HashiCorp, DevOps, Aqua Security, ...
-
-
-## Digital transformation
-
-## Consultancy
-HashiCorp, AWS, DevOps, networking, security, ...
+<div class="home">
+    <div class="title-line">
+        <img class="logo" src="/logo.png" alt="Company Logo">
+        <h1>{{site.title}}</h1>
+    </div>
+        
+    <div class="tagline">
+        <div class="tagline_inner">
+            
+            <div class="tagline_sub">
+                <span>DevSecOps | Cloud | HashiCorp</span>
+            </div>
+            <div class="tagline_main">
+                <span>Consulting Services</span>
+            </div>
+        </div>
+        
+    </div>
+    
+    <div class="email-line">
+        <a href="mailto:jeff@hemmen.lu" class="email-link">
+            <img class="envelope-icon" src="/assets/icons/envelope-icon.png" alt="Envelope Icon">
+            jeff@hemmen.lu
+        </a>
+    </div>
+</div>

@@ -19,7 +19,9 @@
     }
 }
 
-
+.site-footer {
+    background-color: $background-color;
+}
 
 .site-header {
     background-color: $background-color;
@@ -247,33 +249,32 @@
     color: $site-title-color;
 }
 
-.home-placeholder {
+.home {
     text-align: center;
-    height: 40vh;
 
-    #logo-line {
+    .title-line {
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 20vh;
+        height: 6rem;
       }
   
-      #logo {
-        max-height: 80%;
-        max-width: 100%;
+      .logo {
+        max-height: 100%;
       }
   
       h1 {
+        display: inline-block;
         color: #C8B568;
-        font-size: 4vh;
+        // font-size: 4vh;
         margin: unset;
-        margin-left: 10px;
+        // margin-left: 10px;
         font-weight: 700;
       }
 
     .tagline {
         display: flex;
-        height: 50%;
+        height: 6rem;
         justify-content: center;
         align-items: center;
 
@@ -283,33 +284,32 @@
 
         .tagline_main {
             display: block;
-            font-size: 3vh;
+            font-size: 1.25rem;
             color: #FFE5B4;
             font-weight: 500;
         }
         .tagline_sub {
-            font-size: 2.5vh;
+            // font-size: 2.5vh;
             display: block;
             color: #FFE5B4;
         }
     }    
 
-    #email-line {
+    .email-line {
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 50%;
+        height: 6rem;
     }
 
-    #envelope-icon {
-        height: 20px;
-        width: auto;
+    .envelope-icon {
+        height: 1.25rem;
     }
 
     .email-link {
         text-decoration: none;
         color: #FFE5B4;    
-        font-size: 20px;
+        font-size: 1.25rem;
         font-weight: 700;
     }
 }
