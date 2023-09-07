@@ -1,0 +1,24 @@
+---
+layout: base
+---
+
+<h1>About {{site.title}}</h1>
+<table class="company-info-table">
+    <tbody>
+        <tr><td><span>Name</span></td><td class="info-table-value-cell"><span>{{site.title}}</span></td></tr>
+        {%- for entry in page.table-items -%}
+        <tr>
+            <td>
+                <span>{{entry.label}}</span>
+            </td>
+            <td class="info-table-value-cell">
+                <span>{{entry.value}}</span>
+                {%- if entry.verif -%}
+                <a class="verify-link" href="{{entry.verif}}" target="_blank">verify<img class="outgoing-link" src="{{"/assets/icons/external_link.svg" | relative_url}}"></a>
+                {%- endif -%} 
+            </td>
+
+        </tr>
+        {%- endfor -%}
+    </tbody>
+</table>

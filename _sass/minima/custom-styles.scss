@@ -249,6 +249,14 @@
     color: $site-title-color;
 }
 
+.company-info-table {
+    .info-table-value-cell {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
 .home {
     text-align: center;
 
@@ -321,7 +329,7 @@
     border-style: solid;
     border-width: 1px;
     border-color: $brand-color-dark;
-    float: right;
+    // float: right;
 }
 
 .verify-link:hover {
