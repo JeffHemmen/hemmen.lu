@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About {{ site.title }}
+title: About the Company
 permalink: /staging/about_company/
 ---
 

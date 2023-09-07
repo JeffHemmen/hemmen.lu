@@ -34,8 +34,6 @@ github_username:  jekyll
 
 # Build settings
 theme: minima
-gems:
-  - jekyll-liquify
 # plugins:
 #   - jekyll-feed
 
