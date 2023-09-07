@@ -1,6 +1,6 @@
 ---
 layout: base
-permalink: /staging/
+permalink: /
 ---
 
 <div class="home">

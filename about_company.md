@@ -1,7 +1,7 @@
 ---
 layout: about-company
 title: About the Company
-permalink: /staging/about_company/
+permalink: /about_company/
 table-items:
   - label: Registered address
     value: "Appart. 482<br/>4c, Porte de France<br/>L-4360 Esch-sur-Alzette<br/>LUXEMBOURG"
