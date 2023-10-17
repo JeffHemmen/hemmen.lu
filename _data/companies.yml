@@ -69,6 +69,7 @@ employers:
     logo: ARM.png
     span_row: 1
     span_col: 1
+    bg_color: white
 
   - name: BNP Paribas
     logo: BNP Paribas.svg

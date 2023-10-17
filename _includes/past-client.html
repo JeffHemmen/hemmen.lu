@@ -6,7 +6,7 @@
 {% else %}
 {% assign logos = site.static_files | where_exp: "file", "file.name contains include.company.logo" %}
 {% assign logo = logos[0] %}
-<img src={{logo.path | uri_escape | relative_url}} title="{{include.company.name}}" alt="{{include.company.name}}">
+<img src={{logo.path | uri_escape | relative_url}} title="{{include.company.name}}" alt="{{include.company.name}}"{% if include.company.bg_color %} style="background-color: {{include.company.bg_color}};"{% endif %}>
 {% endif %}
     
 </div>
