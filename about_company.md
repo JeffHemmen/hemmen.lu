@@ -15,7 +15,7 @@ table-items:
     verif: "https://guichet.public.lu/en/outils/autorisations.html"
 
   - label: VAT number
-    value: "LU33526086"
+    value: "<strike>LU33526086</strike>"
     verif: "https://ec.europa.eu/taxation_customs/vies/"
 
   - label: Share capital
