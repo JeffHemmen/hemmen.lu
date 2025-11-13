@@ -4,14 +4,17 @@ title: About the Company
 permalink: /about_company/
 table-items:
   - label: Registered address
-    value: "Appart. 482<br/>4c, Porte de France<br/>L-4360 Esch-sur-Alzette<br/>LUXEMBOURG"
+    value: "<strike>Appart. 482<br/>4c, Porte de France<br/>L-4360 Esch-sur-Alzette<br/>LUXEMBOURG</strike>"
+
+  - label: Record-keeping address
+    value: "Lot 44 P B 83<br/>4, Porte de France<br/>L-4360 Esch-sur-Alzette<br/>LUXEMBOURG</strike>"
 
   - label: Registration number
-    value: "B261685"
+    value: "<strike>B261685</strike>"
     verif: "https://www.lbr.lu/mjrcs/jsp/IndexActionNotSecured.action"
 
   - label: Business Authorisation Number
-    value: "10125642 / 0"
+    value: "<strike>10125642 / 0</strike>"
     verif: "https://guichet.public.lu/en/outils/autorisations.html"
 
   - label: VAT number
@@ -19,7 +22,7 @@ table-items:
     verif: "https://ec.europa.eu/taxation_customs/vies/"
 
   - label: Share capital
-    value: "13.37€"
+    value: "<strike>13.37€</strike>"
 
   - label: LEI
     value: 984500CDCFD7BG0EDT81
