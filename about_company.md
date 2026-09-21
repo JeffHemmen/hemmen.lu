@@ -5,6 +5,9 @@ permalink: /about_company/
 table-items:
   - label: Registered address
     value: "Unit 482<br/>4c, Porte de France<br/>L-4360 Esch-sur-Alzette<br/>LUXEMBOURG"
+
+  - label: Official translations
+    value: "Jeff Hemmen Sàrl-S<br />Jeff Hemmen vGmbH<br />Jeff Hemmen Ltd"
     
   - label: Registration number
     value: "B312299"
