@@ -26,7 +26,7 @@ table-items:
     verif: "https://ec.europa.eu/taxation_customs/vies/"
 
   - label: Share capital
-    value: "13.37€"
+    value: "13.37 €"
     
 ---
 
