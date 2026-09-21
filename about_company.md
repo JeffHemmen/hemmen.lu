@@ -21,7 +21,7 @@ table-items:
     verif: "https://www.lbr.lu/mjrcs-web-front/consult-company/B312299"
 
   - label: Business Authorisation Number
-    value: "10198863 / 0"
+    value: "10198863&nbsp;/&nbsp;0"
     verif: "https://guichet.public.lu/en/outils/autorisations.html"
 
   - label: VAT number
@@ -29,7 +29,7 @@ table-items:
     verif: "https://ec.europa.eu/taxation_customs/vies/"
 
   - label: Share capital
-    value: "13.37 €"
+    value: "13.37&nbsp;&euro;"
     
 ---
 
