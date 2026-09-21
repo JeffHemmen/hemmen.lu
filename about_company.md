@@ -4,7 +4,7 @@ title: About the Company
 permalink: /about_company/
 table-items:
   - label: Registered address
-    value: "<strike>Unit 482<br/>4c, Porte de France<br/>L-4360 Esch-sur-Alzette<br/>LUXEMBOURG</strike>"
+    value: "Unit 482<br/>4c, Porte de France<br/>L-4360 Esch-sur-Alzette<br/>LUXEMBOURG"
     
   - label: Registration number
     value: "B312299"
@@ -19,7 +19,7 @@ table-items:
     verif: "https://ec.europa.eu/taxation_customs/vies/"
 
   - label: Share capital
-    value: "<strike>13.37€</strike>"
+    value: "13.37€"
     
 ---
 
