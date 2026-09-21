@@ -7,8 +7,11 @@ table-items:
     value: "Unit 482<br/>4c, Porte de France<br/>L-4360 Esch-sur-Alzette<br/>LUXEMBOURG"
 
   - label: Official translations
-    value: "Jeff Hemmen Sàrl-S<br />Jeff Hemmen vGmbH<br />Jeff Hemmen Ltd"
-    
+    value: "Jeff Hemmen vGmbH<br />Jeff Hemmen Ltd"
+
+  - label: Legal form
+    value: "Société à responsabilité limitée simplifiée"
+
   - label: Registration number
     value: "B312299"
     verif: "https://www.lbr.lu/"
