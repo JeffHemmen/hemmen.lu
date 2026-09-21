@@ -6,16 +6,19 @@ table-items:
 
   - label: Official translations
     value: "Jeff Hemmen vGmbH<br />Jeff Hemmen Ltd"
+    verif: "https://www.lbr.lu/mjrcs-web-front/consult-company/B312299"
 
   - label: Legal form
     value: "Société à responsabilité limitée simplifiée"
+    verif: "https://www.lbr.lu/mjrcs-web-front/consult-company/B312299"
 
   - label: Registered address
     value: "Unit 482<br/>4c, Porte de France<br/>L-4360 Esch-sur-Alzette<br/>LUXEMBOURG"
+    verif: "https://www.lbr.lu/mjrcs-web-front/consult-company/B312299"
 
   - label: Registration number
     value: "B312299"
-    verif: "https://www.lbr.lu/"
+    verif: "https://www.lbr.lu/mjrcs-web-front/consult-company/B312299"
 
   - label: Business Authorisation Number
     value: "10198863 / 0"
