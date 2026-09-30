@@ -25,7 +25,7 @@ table-items:
     verif: "https://guichet.public.lu/en/outils/autorisations.html"
 
   - label: VAT number
-    value: "<i>pending</i>"
+    value: "LU37822867"
     verif: "https://ec.europa.eu/taxation_customs/vies/"
 
   - label: Share capital
